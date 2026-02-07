@@ -29,8 +29,9 @@ function animpage1() {
 
 function animpage2() {
     page1.style.animation = 'outro 1s ease'
+    page1.style.opacity = 0
     setTimeout(() => {
-        page1.style.opacity = 0
+        page1.style.visibility = 'hidden'
         page2.style.animation = 'intro 1s ease'
         page2.style.opacity = 1
         page2.style.visibility = 'visible'
@@ -38,7 +39,7 @@ function animpage2() {
 }
 
 function btn1press() {
-    if (page1.style.visibility == 'visible') {
+    if (page1.style.opacity == '1') {
         page1.style.animation = 'outro 1s ease'
         window.location.href = window.location.href
     } else {
@@ -47,7 +48,6 @@ function btn1press() {
         page2.visibility = 'hidden'
         animpage1()
     }
-    console.log('prsionado')
 }
 
 
