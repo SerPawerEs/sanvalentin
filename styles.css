@@ -323,7 +323,7 @@ body{
 #grancora{
     display: none;
     position: absolute;
-    font-size: 300px;
+    font-size: 100px;
     animation: none;
     opacity: 0;
     z-index: 2;
