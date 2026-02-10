@@ -4,6 +4,8 @@ const page2 = document.getElementById('page2')
 const imgtitle = document.getElementById('imgtitle')
 const btn1 = document.getElementById('btn1')
 const btn2 = document.getElementById('btn2')
+const corazon = document.getElementById('corazon')
+const grancora = document.getElementById('grancora')
 
 document.addEventListener('click', () => {
     if (img1.style.opacity != '0') {
@@ -56,3 +58,12 @@ function btn2press() {
         animpage2()
     }
 }
+
+corazon.addEventListener('click', () => {
+    grancora.style.animation = 'click 1s ease'
+    grancora.style.display = 'flex'
+    setTimeout(() => {
+        grancora.style.animation = 'none'
+        grancora.style.display = 'none'
+    }, 900);
+})

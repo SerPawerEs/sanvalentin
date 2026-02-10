@@ -24,8 +24,9 @@ body{
 }
 
 .ctc{
+    text-align: center;
     rotate: -17deg;
-    transform: translate(5px, 75px);
+    transform: translate(5px, 65px);
     user-select: none;
     font-size: 14px;
     font-family: monospace;
@@ -170,16 +171,22 @@ body{
 }
 
 #imgs{
+    width: 140px;
     display: flex;
     flex-direction: column;
 }
 
 .border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.473);
     outline-style: solid;
     outline-color: black;
     outline-width: 2px;
     padding: 3px;
     margin: 10px;
+    overflow: hidden;
 }
 
 .tulipanes{
@@ -188,7 +195,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     width: 140px;
-    height: 95px;
+    height: 80px;
 }
 
 .girasoles{
@@ -197,7 +204,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     width: 140px;
-    height: 60px;
+    height: 45px;
 }
 
 .btn1{
@@ -233,6 +240,27 @@ body{
     opacity: 0;
     animation: none;
     visibility: hidden;
+}
+
+.textpage2{
+    padding: 10px;
+}
+
+.invits {
+    align-items: center;
+
+    width: 90%;
+    margin-top: 10px;
+    padding: 5px;
+    background: linear-gradient(135deg, rgb(251, 0, 255), rgb(227, 0, 0));
+    background-size: 200%;
+    background-position: 0%;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.invits:hover {
+    background-position: 100%;
 }
 
 #deco1{
@@ -290,6 +318,16 @@ body{
     aspect-ratio: 1/1;
     rotate: 45deg;
     transform: translateY(50%);
+}
+
+#grancora{
+    display: none;
+    position: absolute;
+    font-size: 300px;
+    animation: none;
+    opacity: 0;
+    z-index: 2;
+    user-select: none;
 }
 
 @media (min-width: 768px) {
