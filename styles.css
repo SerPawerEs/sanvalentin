@@ -80,6 +80,7 @@ body{
     }
 }
 
+
 #page1{
     position: absolute;
     display: flex;
@@ -323,8 +324,9 @@ body{
 #grancora{
     display: none;
     position: absolute;
-    font-size: 100px;
+    font-size: 200px;
     animation: none;
+    padding: 90px;
     opacity: 0;
     z-index: 2;
     user-select: none;

@@ -65,5 +65,5 @@ corazon.addEventListener('click', () => {
     setTimeout(() => {
         grancora.style.animation = 'none'
         grancora.style.display = 'none'
-    }, 900);
+    }, 1000);
 })
