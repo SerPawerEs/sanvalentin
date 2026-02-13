@@ -364,6 +364,7 @@ body{
     width: 100%;
     padding: 10px;
     opacity: 0;
+    background: radial-gradient(rgba(216, 5, 240, 0.8), rgba(253, 164, 255, 0) 70%);
 }
 
 .options{
