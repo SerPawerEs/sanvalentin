@@ -110,12 +110,17 @@ function btn2press() {
 }
 
 corazon.addEventListener('click', () => {
-    grancora.style.animation = 'click 1s ease'
-    grancora.style.display = 'flex'
+    grancora.style.animation = 'none'
+    grancora.style.display = 'none'
     setTimeout(() => {
-        grancora.style.animation = 'none'
-        grancora.style.display = 'none'
-    }, 1000);
+        grancora.style.display = 'flex'
+        grancora.style.animation = 'click 1s ease'
+    }, 10);
+})
+
+grancora.addEventListener('animationend', () => {
+    grancora.style.animation = 'none'
+    grancora.style.display = 'none'
 })
 
 function options() {
