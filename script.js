@@ -17,6 +17,10 @@ const txtpage4 = document.getElementById('txtpage4')
 const coracs = document.getElementById('corac-s')
 const corazonrosa = document.getElementById('corazonrosa')
 
+const version = '1.0'
+
+console.log('version: ', version)
+
 document.addEventListener('click', () => {
     if (img1.style.opacity != '0') {
         img1.style.animation = 'click 1s ease'
