@@ -17,7 +17,7 @@ const txtpage4 = document.getElementById('txtpage4')
 const coracs = document.getElementById('corac-s')
 const corazonrosa = document.getElementById('corazonrosa')
 
-const version = '1.0'
+const version = '1.1'
 
 console.log('version: ', version)
 
