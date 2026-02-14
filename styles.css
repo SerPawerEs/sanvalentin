@@ -229,6 +229,7 @@ body{
     border-radius: 5px;
     font-size: 15px;
     padding: 5px;
+    user-select: none;
 }
 
 .btn2{
@@ -239,6 +240,7 @@ body{
     border-radius: 5px;
     font-size: 15px;
     padding: 5px;
+    user-select: none;
 }
 
 #page2{
@@ -506,6 +508,7 @@ body{
 
 @media (min-width: 768px) {
     body{
+        content: 'dispositivo no compatible';
         opacity: 0;
         background: linear-gradient(-45deg, red, rgb(128, 0, 100));
         background-position: center;
